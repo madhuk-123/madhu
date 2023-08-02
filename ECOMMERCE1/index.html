@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shoe Store</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+      <a class="navbar-brand" href="#">
+        <img
+          class="imagesize"
+          src="https://th.bing.com/th/id/OIP.Y9gjCAwNoxYmGkUB2u7y8gHaHa?w=183&h=183&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+        />
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link size" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link size" href="#productSection">Products</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link size" href="#cat">Categories</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link size" href="#new">New Arrivals</a>
+          </li>
+          <div>
+            <li class="nav-item">
+              <a class="nav-link size" href="#contact">Contact us</a>
+            </li>
+          </div>
+        </ul>
+      </div>
+      <div class="ml-auto">
+        <p>
+          <a href="#cart">
+            <img
+              class="imagesize1"
+              src="https://th.bing.com/th/id/OIP.ZvnKzvGN7cZBpIsUjOPVUAAAAA?w=169&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+            />
+          </a>
+        </p>
+      </div>
+    </nav>
+
+    <div
+      id="carouselExampleIndicators"
+      class="carousel slide"
+      data-ride="carousel"
+    >
+      <ol class="carousel-indicators">
+        <li
+          data-target="#carouselExampleIndicators"
+          data-slide-to="0"
+          class="active"
+        ></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="https://th.bing.com/th/id/OIP.g7FIEP8Y4lprL9jUbTW1UwHaEo?w=276&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+            class="d-block w-100"
+            alt="Image 1"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://th.bing.com/th/id/OIP._DXD40Ot_auNMJGSeLLiAwHaEo?w=267&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+            class="d-block w-100"
+            alt="Image 2"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://th.bing.com/th/id/OIP.Xq4n1LrJGEmAsoBH-ttS3wHaE8?w=247&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+            class="d-block w-100"
+            alt="Image 3"
+          />
+        </div>
+      </div>
+      <a
+        class="carousel-control-prev"
+        href="#carouselExampleIndicators"
+        role="button"
+        data-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a
+        class="carousel-control-next"
+        href="#carouselExampleIndicators"
+        role="button"
+        data-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+    <div>
+      <img
+        class="m"
+        src="https://th.bing.com/th/id/OIP.RoMJFG2EmY8oApg5GDzK4QHaEC?w=338&h=184&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+      />
+    </div>
+
+    <div>
+      <h1 id="productSection" class="heading">Featured Products</h1>
+      <div class="imgs d-flex flex-row justify-content-between">
+        <img
+          src="https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1676016585_3411903.jpg?format=webp&w=300&dpr=1.3"
+        />
+        <img
+          src="https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1660020716_5298118.jpg?format=webp&w=300&dpr=1.3"
+        />
+      </div>
+    </div>
+
+    <div>
+      <h1 id="cat" class="heading">Top Categories</h1>
+      <div class="d-flex flex-row">
+        <div class="m-5">
+          <img
+            src="https://cdn.vectorstock.com/i/preview-1x/53/10/running-hand-written-lettering-with-shoes-vector-13865310.jpg"
+          />
+
+          <p class="sub-head text-center">RUNNING</p>
+          <div class="text-center">
+            <button id="runningBtn" class="btn btn-primary">Get Now</button>
+          </div>
+        </div>
+        <div class="m-5">
+          <img
+            src="https://th.bing.com/th/id/OIP.mmcP2j64caO8fNgQ_3kSQwHaHa?w=189&h=189&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+          />
+
+          <p class="sub-head text-center">SPORTSTYLE</p>
+          <div class="text-center">
+            <button id="sportBtn" class="btn btn-primary">Get Now</button>
+          </div>
+        </div>
+
+        <div class="m-5">
+          <img
+            src="https://th.bing.com/th/id/OIP.UapViHVHs6_DpjuMAAIlowHaFO?w=240&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+          />
+
+          <p class="sub-head text-center">PERFORMENCE</p>
+          <div class="text-center">
+            <button id="apparelBtn" class="btn btn-primary">Get Now</button>
+          </div>
+        </div>
+        <div class="m-5">
+          <img
+            src="https://th.bing.com/th/id/OIP.lBzy65HNsmxo9-zWMYiybwAAAA?pid=ImgDet&w=200&h=200&c=7&dpr=1.3"
+          />
+
+          <p class="sub-head text-center">APPAREL</p>
+          <div class="text-center">
+            <button id="performanceBtn" class="btn btn-primary">Get Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <h1 id="new" class="heading">NEW COLLECTION</h1>
+      <div class="d-flex flex-row">
+        <div>
+          <img
+            src="https://th.bing.com/th/id/OIP.TDAGHOH4Izc00i6Ghr2DRQHaHa?w=490&h=430&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+          />
+        </div>
+        <div>
+          <img
+            src="https://th.bing.com/th/id/OIP.QcvuIGy-g7D1gNQIFs2SYwHaHa?w=490&h=430&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+          />
+        </div>
+        <div>
+          <img
+            src="https://th.bing.com/th/id/OIP.Zj37UzxZkVx8SJBboHnzWgHaHP?w=460&h=430&pid=ImgDet&rs=1"
+          />
+        </div>
+      </div>
+    </div>
+    <h1 class="heading mt-4">RECOMMENDED PRODUCTS</h1>
+
+    <div class="d-flex flex-row justify-content-between">
+      <div class="bg shadow">
+        <img
+          src="https://th.bing.com/th/id/OIP.62MCyGOajOWThOkMZAKozgHaE8?w=286&h=191&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+          alt="Product 1"
+          class="image"
+        />
+        <h4>NIKE JORDON 11</h4>
+        <p class="main">
+          The NIKE JORDON 11 shoe creates a comfortable and a more
+          responsive feel underfoot.
+        </p>
+        <p class="main">Rs.1299</p>
+        <button class="btn btn-primary add-to-cart-btn" data-id="1">
+          Add to Cart
+        </button>
+      </div>
+      <div class="bg shadow">
+        <img
+          src="https://th.bing.com/th/id/OIP.ob553zVyMzeAxuIHoHJRTgHaGN?w=213&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+          alt="Product 2"
+          class="image"
+        />
+        <h4>METASPEED EDGE+</h4>
+        <p class="main">
+          The METASPEED™ EDGE+ racing shoes are designed for cadence-style
+          runners who are looking to start fast and finish faster.
+        </p>
+        <p class="main">Rs.2599</p>
+        <button class="btn btn-primary add-to-cart-btn" data-id="2">
+          Add to Cart
+        </button>
+      </div>
+      <div class="bg shadow">
+        <img
+          src="https://th.bing.com/th/id/OIP.KTFQtvGS3voexN54rg3iVwHaHa?w=211&h=211&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+          alt="Product 3"
+          class="image"
+        />
+        <h4>MAGIC SPEED 2</h4>
+        <p class="main">
+          The MAGIC SPEED™ 2 shoe offers the energy you need to move towards a
+          new personal best.
+        </p>
+        <p class="main">Rs.1789</p>
+        <button class="btn btn-primary add-to-cart-btn" data-id="1">
+          Add to Cart
+        </button>
+      </div>
+      <div class="bg shadow">
+        <img
+          src="https://th.bing.com/th/id/OIP.oFRjIryLuYOKacjXTWWwfAHaHa?pid=ImgDet&rs=1"
+          alt="Product41"
+          class="image"
+        />
+        <h4>ADIDAS</h4>
+        <p class="main">
+          "The adidas combines a futuristic shape .
+        </p>
+        <p class="main">Rs.2999</p>
+        <button class="btn btn-primary add-to-cart-btn" data-id="1">
+          Add to Cart
+        </button>
+      </div>
+    </div>
+
+    <div class="d-flex flex-row justify-content-between">
+      <div class="bg shadow">
+        <img
+          src="https://th.bing.com/th/id/OIP.-4vFgjcFNBECWNR59GrcYgHaEU?w=310&h=183&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+          alt="Product 1"
+          class="image"
+        />
+        <h4>GEL-NIMBUS 25</h4>
+        <p class="main">
+          "The GEL-NIMBUS® 25 shoe's soft cushioning properties help you feel
+          like you're landing on clouds.
+        </p>
+        <p class="main">Rs.2489</p>
+        <button class="btn btn-primary add-to-cart-btn" data-id="1">
+          Add to Cart
+        </button>
+      </div>
+      <div class="bg shadow">
+        <img
+          src="https://th.bing.com/th/id/OIP.Lk7_egm_pbXVKIKbJ53j2gHaIq?w=183&h=214&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+          alt="Product 2"
+          class="image"
+        />
+        <h4>SPARX</h4>
+        <p class="main">
+          The sparx Shoes Are Designed For Distance Runners Seeking A
+          Smooth Stride. .
+        </p>
+        <p class="main">Rs.1999</p>
+        <button class="btn btn-primary add-to-cart-btn" data-id="2">
+          Add to Cart
+        </button>
+      </div>
+      <div class="bg shadow">
+        <img
+          src="https://th.bing.com/th/id/OIP.0-2BaZvOA6_H_Q0ELxepnAHaFj?w=236&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+          alt="Product 3"
+          class="image"
+        />
+        <h4>GEL-KINSEI BLAST LE 2</h4>
+        <p class="main">
+          The Gel-Kinsei Blast Shoes Are Designed For Distance Runners Seeking A
+          Smooth Stride.
+        </p>
+        <p class="main">Rs.2399</p>
+        <button class="btn btn-primary add-to-cart-btn" data-id="1">
+          Add to Cart
+        </button>
+      </div>
+      <div class="bg shadow">
+        <img
+          src="https://th.bing.com/th/id/OIP.onrkZpRKT1v7eTk5uPCNqgHaHa?w=186&h=186&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+          alt="Product41"
+          class="image"
+        />
+        <h4>SOLUTION SWIFT FF</h4>
+        <p class="main">
+          The Fastest Model In The Asics Tennis Range, Our Solution Speed Ff 2
+          Shoe Is All About Helping Players Expand Their Territory On The Court.
+        </p>
+        <p class="main">Rs.1599</p>
+        <button class="btn btn-primary add-to-cart-btn" data-id="1">
+          Add to My selections
+        </button>
+      </div>
+    </div>
+
+    <div class="container mt-5">
+      <h2 id="cart">My selections</h2>
+      <div id="cart-items"></div>
+      <p>Total items in cart: <span id="cart-count">0</span></p>
+    </div>
+
+    <h1 class="follow-us-section-heading">Follow Us</h1>
+
+    <div class="d-flex flex-row justify-content-center">
+      <div class="follow-us-icon-container">
+        <a href="https://twitter.com/">
+        <i class="clr fab fa-twitter icon"></i>
+      </a>
+      </div>
+      <div class="follow-us-icon-container">
+        <a href="https://www.instagram.com/">
+        <i class="clr fab fa-instagram icon"></i>
+      </a>
+      </div>
+      <div class="follow-us-icon-container">
+        <a href="https://www.facebook.com/">
+        <i class="clr fab fa-facebook icon"></i>
+        </a>
+      </div>
+    </div>
+
+    <div id="contact" class="footer-section pt-5 pb-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center">
+            <img
+              src="https://th.bing.com/th/id/OIP.BvwlaiG0U6KLAMErXEDZaAHaH3?w=161&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+              class="imagesize"
+            />
+            <h1 class="footer-section-mail-id">onlineshoe@safefoot.com</h1>
+            <p class="footer-section-address">
+              Andhrapradesh,Madanapalli, India.
+            </p>
+            <p class="footer-section-address">
+              Contact details: 9876543111
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/20c5629a29.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+<
